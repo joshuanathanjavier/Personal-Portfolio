@@ -1,14 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 
 export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0f0f0f] font-medium">
-      <Navbar/>
       <main>
         <div id="home" className="flex flex-col items-center justify-center min-h-screen bg-[#0f0f0f] text-center">
           <section>
@@ -54,8 +51,6 @@ export default function Home() {
           </section>
         </div>
       </main>
-
-      <Footer/>
       </div>
   );
 }

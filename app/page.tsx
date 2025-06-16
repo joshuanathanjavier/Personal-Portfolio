@@ -3,9 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Profile from "@/app/assets/minime.png";
-import Sanctuary from "@/app/assets/sanctuary.png";
-import Sanctuary2 from "@/app/assets/sanctuary2.png";
-import Sanctuary3 from "@/app/assets/sanctuary3.png";
+import Logos from "@/components/logo";
+import Projects from "@/components/projects";
 import { ChevronUp } from "lucide-react";
 
 export default function Home() {
@@ -34,7 +33,7 @@ export default function Home() {
             <h2 className="text-4xl">About Me</h2>
             <div className="static flex flex-col items-center md:items-right right-0 mx-auto md:absolute md:mr-150 mt-10">
               <div className="static">
-                <Image src={Profile.src} alt="Profile Picture" width={250} height={250} priority />
+                <Image className="w-40 md:w-60" src={Profile.src} alt="Profile Picture" width={250} height={250} priority />
               </div>
             </div>
             <div className="flex flex-col items-left m-10 p-4 md:ml-100">
@@ -42,20 +41,13 @@ export default function Home() {
                 I like creating things that I am passionate about. I am a front-end developer with a passion for creating beautiful and functional web applications. <br /><br /> I have experience in HTML, CSS, JavaScript, and React. I am always eager to learn new technologies and improve my skills. I want to build my own game myself.
               </p>
             </div>
+            <h2 className="text-4xl">Skills</h2>
+            <Logos />
           </section>
         </div>
         <div id="projects" className="flex flex-col items-center justify-center min-h-screen text-center">
           <section>
-            <h2 className="text-4xl">Projects</h2>
-              <div className="flex flex-col items-center m-4 p-4">
-                
-                <Link className="hover:text-[#6dbfb8] hover:scale-110 transition-transform duration-300 ease-out" href="https://www.sanctuarysounds.me/" target="_blank" rel="noopener noreferrer"><h3 className="text-2xl">Sanctuary</h3></Link>
-                <div className="mt-4 flex flex-col items-center md:flex-row md:space-x-4">
-                <Image className="w-100 h-auto mb-4 md:mb-0" src={Sanctuary.src} alt="Sanctuary Website" width={500} height={500}/>
-                <Image className="w-100 h-auto mb-4 md:mb-0" src={Sanctuary2.src} alt="Sanctuary Website" width={500} height={500}/>
-                <Image className="w-100 h-auto" src={Sanctuary3.src} alt="Sanctuary Website" width={500} height={500}/>
-                </div>
-              </div>
+            <Projects />
           </section>
         </div>
         <div id="contact" className="flex flex-col items-center justify-center min-h-screen text-center">

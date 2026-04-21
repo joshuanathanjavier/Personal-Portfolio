@@ -21,7 +21,7 @@ export default function Home() {
           <section>
             <h1>JOSHUA NATHAN JAVIER</h1>
              <p>
-              <span className="text-6xl md:text-8xl">JOSHI.DEV</span>
+              <span className="text-6xl md:text-8xl animate-(--animate-color)">JOSHI.DEV</span>
               <br />
               <span className="text-2xl md:text-4xl">Front-End Developer</span>
               <br />

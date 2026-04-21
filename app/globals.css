@@ -20,6 +20,31 @@ html {
   }
 }
 
+:root {
+  --animate-color: color 6s ease infinite;
+}
+
+@keyframes color {
+  0% {
+    color: #d00000;
+  }
+  20% {
+    color: #e85d04;
+  }
+  40% {
+    color: #f48c06;
+  }
+  60% {
+    color: #ffba08;
+  }
+  80% {
+    color: #faa307;
+  }
+  100% {
+    color: #dc2f02;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

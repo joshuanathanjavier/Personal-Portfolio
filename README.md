@@ -141,9 +141,9 @@ Feel free to fork this project and adapt it for your own portfolio! If you have 
 
 ## 📞 Contact
 
-- **Portfolio**: [joshi.dev](https://personal-portfolio-indol-beta.vercel.app/)
+- **Portfolio**: [joshi.dev](https://joshi-dev.vercel.app/)
 - **GitHub**: [@joshuanathanjavier](https://github.com/joshuanathanjavier)
-- **Email**: [joshuanathanjavier@gmail.com](mailto:joshuanathanjavier@gmail.com)
+- **Email**: [joshuanathanjavier@gmail.com](mailto:hanssetsun@gmail.com)
 
 ---
 

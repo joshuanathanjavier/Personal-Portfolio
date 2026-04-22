@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing the work and skills o
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at: [joshi.dev](https://personal-portfolio-indol-beta.vercel.app/)
+Visit the live portfolio at: [joshi.dev](https://joshi-dev.vercel.app/)
 
 ## 📋 Features
 

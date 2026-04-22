@@ -37,7 +37,7 @@ function navbar() {
         ].join(" ")}
       >
         <nav className="flex items-center justify-between max-w-8xl mx-auto py-5">
-          <h1 className="px-10">
+          <h1 className="px-6 md:px-10">
             <b>joshi.dev</b>
           </h1>
           <div className="hidden md:flex space-x-10">

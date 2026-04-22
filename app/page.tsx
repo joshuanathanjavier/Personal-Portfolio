@@ -95,6 +95,8 @@ export default function Home() {
                       <a
                         href="mailto:hanssetsun@gmail.com"
                         className="underline font-semibold"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         hanssetsun@gmail.com
                       </a>
@@ -105,6 +107,8 @@ export default function Home() {
                       <a
                         href="https://www.linkedin.com/in/joshuanathanjavier/"
                         className="underline font-semibold"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         joshuanathanjavier
                       </a>
@@ -115,6 +119,8 @@ export default function Home() {
                       <a
                         href="https://github.com/joshuanathanjavier/"
                         className="underline font-semibold"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         joshunathanjavier
                       </a>
@@ -131,7 +137,10 @@ export default function Home() {
                     <div>
                       <div className="flex flex-col md:flex-row gap-2">
                         <div>
-                          <label htmlFor="name" className="flex flex-col items-start">
+                          <label
+                            htmlFor="name"
+                            className="flex flex-col items-start"
+                          >
                             Name:
                           </label>
                           <input
@@ -146,7 +155,10 @@ export default function Home() {
                           />
                         </div>
                         <div>
-                          <label htmlFor="email" className="flex flex-col items-start">
+                          <label
+                            htmlFor="email"
+                            className="flex flex-col items-start"
+                          >
                             Email:
                           </label>
                           <input
@@ -161,7 +173,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div>
-                        <label htmlFor="message" className="flex flex-col items-start">
+                        <label
+                          htmlFor="message"
+                          className="flex flex-col items-start"
+                        >
                           Message:
                         </label>
                         <textarea
